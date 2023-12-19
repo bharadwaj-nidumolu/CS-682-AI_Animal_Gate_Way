@@ -1,0 +1,8 @@
+Code Structure Overview :
+-------------------------
+* Import Statements: The code imports various libraries and modules required for image processing, image classification, and web application development.
+* Flask Application Setup: The code initializes a Flask application.
+* Image Capture: The code defines a function capture_image() that captures an image using the Raspberry Pi Camera and saves it to a specified filepath.
+* Image Preprocessing: The code defines a function prepare_image() that preprocesses the input image for prediction. It resizes the image, converts it to a NumPy array, and expands the dimensions to match the input shape of the MobileNet model.
+* Image Classification: The code defines a function classify_image() that performs image classification using the MobileNet model. It preprocesses the input image, feeds it to the MobileNet model, and returns the predicted results.
+* Flask Route: The code defines a Flask route /classify that captures an image, performs image classification, and returns the top predicted category with its confidence as a JSON response.
