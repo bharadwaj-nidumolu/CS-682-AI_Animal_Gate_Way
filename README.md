@@ -32,7 +32,7 @@ To assess the model's performance, we created the `AnimalGateTesting.ipynb` note
 
 The `DetectCatModel` component of our system takes an image sample as input and prints the model's classification results to the console. This real-time detection capability is essential for the Animal Gate to make informed decisions based on the identified cat breed.
 
-##Code Structure Overview :
+Code Structure Overview :
 -------------------------
 * Import Statements: The code imports various libraries and modules required for image processing, image classification, and web application development.
 * Flask Application Setup: The code initializes a Flask application.
