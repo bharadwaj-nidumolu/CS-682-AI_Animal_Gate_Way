@@ -52,11 +52,8 @@ To replicate our results, follow these steps:
 
 ## Steps to execute 'DetectCat' :
 
-(a)To run our application , the 1st and most important is to create python virtual environment and can be done using command { python3 -m venv /path_to_store_file/ }.
-
-(b)Once the python virtual environment is created then we should activate the environment to run our application which can be done using command { source /path_to_store_file/bin/activate }.
-
-(c)Then after, change the directory to the folder where "DetectCat.py" is located. 
-
-(d) Now , compile the python file using command { python3 DetectCat.py }. Upon sucessful compilation open browser redirect to { ip_address:port_number/method_name }.
+1.To run our application , the 1st and most important is to create python virtual environment and can be done using command { python3 -m venv /path_to_store_file/ }.
+2.Once the python virtual environment is created then we should activate the environment to run our application which can be done using command { source /path_to_store_file/bin/activate }.
+3.Then after, change the directory to the folder where "DetectCat.py" is located. 
+4.Now , compile the python file using command { python3 DetectCat.py }. Upon sucessful compilation open browser redirect to { ip_address:port_number/method_name }.
 Here in our code 172.20.10.2 is ip_address, 5000 is port_number and classify is method_name. Change ip_address accordingly to which network is connected.
